@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adidas Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div id="chat-container">
+        <div id="chat-window">
+            <div class="message bot-msg">Chào bạn! Mình là trợ lý Adidas. Bạn muốn tìm giày gì nè?</div>
+        </div>
+        <div id="input-area">
+            <input type="text" id="user-input" placeholder="Nhập tin nhắn...">
+            <button id="send-btn">Gửi</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

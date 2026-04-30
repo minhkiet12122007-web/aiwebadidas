@@ -1,0 +1,4 @@
+Flask==3.1.3
+googlesearch-python
+google-genai
+python-dotenv
